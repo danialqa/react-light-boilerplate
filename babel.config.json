@@ -1,0 +1,48 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "edge": "17",
+          "firefox": "60",
+          "chrome": "67",
+          "safari": "11.1"
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.6.5"
+      }
+    ],
+    "@babel/typescript",
+    "@babel/react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@loadable/babel-plugin",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "lodash",
+        "libraryDirectory": "./",
+        "camel2DashComponentName": false
+      },
+      "lodash"
+    ],
+    ["styled-components"],
+    ["@babel/plugin-transform-runtime"]
+  ],
+  "env": {
+    "production": {
+      "plugins": ["transform-remove-console"]
+    }
+  }
+}

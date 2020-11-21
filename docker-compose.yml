@@ -1,0 +1,9 @@
+version: "3"
+services:
+  react-light-boilerplate:
+    image: react-light-boilerplate:latest
+    restart: always
+    container_name: react-light-boilerplate
+    build: .
+    ports:
+      - 8080:8080
