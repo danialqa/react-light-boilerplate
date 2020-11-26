@@ -8,7 +8,7 @@ React Fully Customized Boilerplate with the most popular technologies:
 - [React Router] (https://reacttraining.com/react-router/ "React Router v5.2.0") as the router.
 - [redux-saga] (https://github.com/redux-saga/redux-saga/) as the middleware to deal with asynchronous action.
 - [react-helmet] (https://github.com/nfl/react-helmet "react-helmet ")to manage title, meta, styles and scripts tags on both server and client.
-- [Webpack 4](https://webpack.js.org/ "Webpack 4") for app bundling.
+- [Webpack 4] (https://webpack.js.org/ "Webpack 4") for app bundling.
 - [ESLint] (https://eslint.org/ "ESLint") to maintain a consistent javascript code style (With Airbnb configuration).
 - [Formik] (https://github.com/formium/formik) 
 
