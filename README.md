@@ -1,3 +1,5 @@
+![](./assets/rlb.png)
+
 # React Light Boilerplate
 
 ### Features
